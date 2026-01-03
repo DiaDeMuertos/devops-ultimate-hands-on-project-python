@@ -1,0 +1,11 @@
+clean.sh
+devbox*
+supercli.egg-info
+.venv
+temp
+__pycache__
+*.egg-info
+.DS_Store
+.ruff_cache
+build
+dist

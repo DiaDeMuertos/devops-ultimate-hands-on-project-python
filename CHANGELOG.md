@@ -2,6 +2,14 @@
 
 <!-- version list -->
 
+## v1.1.11 (2026-01-06)
+
+### Bug Fixes
+
+- **python-cicd**: Updated upload sha file name
+  ([`004e190`](https://github.com/DiaDeMuertos/devops-ultimate-hands-on-project-python/commit/004e190e6cdfe31b9877aa6832e239622098932c))
+
+
 ## v1.1.10 (2026-01-06)
 
 ### Bug Fixes

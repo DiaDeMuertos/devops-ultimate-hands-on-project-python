@@ -2,6 +2,14 @@
 
 <!-- version list -->
 
+## v1.1.4 (2026-01-06)
+
+### Bug Fixes
+
+- **python-cicd**: Added missing test pypi user name
+  ([`2ae86aa`](https://github.com/DiaDeMuertos/devops-ultimate-hands-on-project-python/commit/2ae86aa4843634ae2fee1a6c67ba038bcea5d861))
+
+
 ## v1.1.3 (2026-01-06)
 
 ### Bug Fixes

@@ -2,6 +2,14 @@
 
 <!-- version list -->
 
+## v1.1.10 (2026-01-06)
+
+### Bug Fixes
+
+- **python-cicd**: Updated artifact name
+  ([`8afeab6`](https://github.com/DiaDeMuertos/devops-ultimate-hands-on-project-python/commit/8afeab6c66ea9792b1320f8ba94e44310d71c41c))
+
+
 ## v1.1.9 (2026-01-06)
 
 ### Bug Fixes

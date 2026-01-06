@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "simple-http-checker-ddm"
-version = "1.1.9"
+version = "1.1.10"
 description = "A siimple CLI tool to check the status of URLS."
 readme = "README.md"
 requires-python = ">=3.9"

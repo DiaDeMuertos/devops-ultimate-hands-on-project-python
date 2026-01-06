@@ -2,6 +2,14 @@
 
 <!-- version list -->
 
+## v1.1.8 (2026-01-06)
+
+### Bug Fixes
+
+- **python-cicd**: Updated project name
+  ([`144e244`](https://github.com/DiaDeMuertos/devops-ultimate-hands-on-project-python/commit/144e2440ee46c83f3b841d28c0e0fb0317914fab))
+
+
 ## v1.1.7 (2026-01-06)
 
 ### Bug Fixes

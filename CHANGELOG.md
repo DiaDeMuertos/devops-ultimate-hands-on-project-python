@@ -2,6 +2,14 @@
 
 <!-- version list -->
 
+## v1.1.2 (2026-01-06)
+
+### Bug Fixes
+
+- **python-cicd**: Added token with twine toos
+  ([`0e067cd`](https://github.com/DiaDeMuertos/devops-ultimate-hands-on-project-python/commit/0e067cddd17b4bd97b9c71a3ed5a8ca220416cb5))
+
+
 ## v1.1.1 (2026-01-06)
 
 ### Bug Fixes

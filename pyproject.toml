@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "simple-http-checker"
-version = "1.1.1"
+version = "1.1.2"
 description = "A siimple CLI tool to check the status of URLS."
 readme = "README.md"
 requires-python = ">=3.9"

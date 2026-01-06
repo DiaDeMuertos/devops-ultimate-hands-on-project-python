@@ -2,6 +2,14 @@
 
 <!-- version list -->
 
+## v1.1.7 (2026-01-06)
+
+### Bug Fixes
+
+- **python-cicd**: Removed token as user name
+  ([`6292712`](https://github.com/DiaDeMuertos/devops-ultimate-hands-on-project-python/commit/62927123c04c184a17543d3e80d1f774fe9cb38b))
+
+
 ## v1.1.6 (2026-01-06)
 
 ### Bug Fixes

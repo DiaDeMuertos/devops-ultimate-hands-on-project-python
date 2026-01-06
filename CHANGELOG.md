@@ -2,6 +2,14 @@
 
 <!-- version list -->
 
+## v1.1.9 (2026-01-06)
+
+### Bug Fixes
+
+- **python-cicd**: List dist contend
+  ([`7c6ac68`](https://github.com/DiaDeMuertos/devops-ultimate-hands-on-project-python/commit/7c6ac683f06599193b8c8e135462f06747dda4bd))
+
+
 ## v1.1.8 (2026-01-06)
 
 ### Bug Fixes

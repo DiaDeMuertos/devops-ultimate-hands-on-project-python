@@ -2,6 +2,14 @@
 
 <!-- version list -->
 
+## v1.1.1 (2026-01-06)
+
+### Bug Fixes
+
+- **python-cicd**: Added missing environment
+  ([`46b7767`](https://github.com/DiaDeMuertos/devops-ultimate-hands-on-project-python/commit/46b7767d8a7051858972dbdd524029d6923d6555))
+
+
 ## v1.1.0 (2026-01-06)
 
 ### Features

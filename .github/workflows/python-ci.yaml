@@ -73,7 +73,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GH_PAT }}
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -84,18 +84,10 @@ jobs:
           pip install python-semantic-release
       - name: Create release
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_PAT }}
         run: |
           semantic-release version
           semantic-release publish
       
       # semantic-release version --no-commit --no-tag --no-changelog --no-push --no-vcs-release
       # semantic-release publish
-      # - name: Build the Python project
-      #   run: |
-      #     python -m build
-      # - name: Upload build artifacts
-      #   uses: actions/upload-artifact@v4
-      #   with:
-      #     name: simple-http-checker=${{ github.sha }}
-      #     path: dist/

@@ -2,6 +2,14 @@
 
 <!-- version list -->
 
+## v1.1.3 (2026-01-06)
+
+### Bug Fixes
+
+- **python-cicd**: Added missing donwload artifact
+  ([`2de3d3c`](https://github.com/DiaDeMuertos/devops-ultimate-hands-on-project-python/commit/2de3d3c0cc6437165e1df5fdc84bb659b5e34998))
+
+
 ## v1.1.2 (2026-01-06)
 
 ### Bug Fixes

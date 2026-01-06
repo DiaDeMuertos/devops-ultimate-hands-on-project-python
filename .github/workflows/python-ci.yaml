@@ -80,14 +80,14 @@ jobs:
           python-version: '3.13'
       - name: Install dependencies
         run: |
-          python -m pip install --upgrade pip
-          pip install build
+          python -m pip install --upgrade pip          
           pip install python-semantic-release
-      - name: create release
+      - name: Create release
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_PAL }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          echo "OK $GH_TOKEN KO"
+          semantic-release version
+          semantic-release publish
       
       # semantic-release version --no-commit --no-tag --no-changelog --no-push --no-vcs-release
       # semantic-release publish

@@ -61,7 +61,7 @@ jobs:
       - name: Upload to TestPyPI 
         run: twine upload --repository testpypi dist/* 
         env: 
-          TWINE_USERNAME: ${{ secrets.TEST_PYPI_USER_NAME }} 
+          TWINE_USERNAME: __token__
           TWINE_PASSWORD: ${{ secrets.TEST_PYPI_API_TOKEN }}
 
       # - name: Download build artifacts

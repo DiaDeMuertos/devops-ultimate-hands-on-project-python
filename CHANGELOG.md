@@ -2,6 +2,14 @@
 
 <!-- version list -->
 
+## v1.1.5 (2026-01-06)
+
+### Bug Fixes
+
+- **python-cicd**: Added missing test pypi user name placeholder
+  ([`ec8f773`](https://github.com/DiaDeMuertos/devops-ultimate-hands-on-project-python/commit/ec8f773e7202055324d1ecb4c428b5f015a1f182))
+
+
 ## v1.1.4 (2026-01-06)
 
 ### Bug Fixes

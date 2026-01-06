@@ -2,6 +2,14 @@
 
 <!-- version list -->
 
+## v1.1.6 (2026-01-06)
+
+### Bug Fixes
+
+- **python-cicd**: Added verbose to twine
+  ([`50b7871`](https://github.com/DiaDeMuertos/devops-ultimate-hands-on-project-python/commit/50b7871f1990cf543fac9942e36edf2a6264e324))
+
+
 ## v1.1.5 (2026-01-06)
 
 ### Bug Fixes

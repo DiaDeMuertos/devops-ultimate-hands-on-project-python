@@ -60,8 +60,9 @@ jobs:
           pip install build twine
       - name: Upload to TestPyPI 
         run: twine upload --repository testpypi dist/* --verbose
+        # run: twine upload --repository-url https://test.pypi.org/manage/project/simple-http-checker-ddm dist/* --verbose
         env: 
-          TWINE_USERNAME: __token__
+          # TWINE_USERNAME: __token__
           TWINE_PASSWORD: ${{ secrets.TEST_PYPI_API_TOKEN }}
 
       # - name: Download build artifacts

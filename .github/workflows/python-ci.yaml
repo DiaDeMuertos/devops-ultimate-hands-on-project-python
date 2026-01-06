@@ -85,9 +85,11 @@ jobs:
           pip install python-semantic-release
       - name: create release
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN_FAKE }}
+          GH_TOKEN: ${{ secrets.GITHUB_PAL }}
         run: |
-          semantic-release version --no-commit --no-tag --no-changelog --no-push --no-vcs-release
+          echo "OK $GH_TOKEN KO"
+      
+      # semantic-release version --no-commit --no-tag --no-changelog --no-push --no-vcs-release
       # semantic-release publish
       # - name: Build the Python project
       #   run: |
